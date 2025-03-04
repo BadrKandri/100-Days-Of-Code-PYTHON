@@ -28,3 +28,4 @@ while True:
     if time.time() > timeout:    
         cursor.click()       
         timeout = time.time() + 1
+# end
