@@ -16,7 +16,6 @@ def home():
     </div>
 """
 
-
 @app.route("/<int:guess>")
 def guess_number(guess):
     if guess > random_number:
