@@ -1,3 +1,6 @@
+'''https://documenter.getpostman.com/view/42946578/2sAYdoFT8d'''
+
+
 from flask import Flask, jsonify, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
@@ -121,6 +124,3 @@ def delete_cafe(cafe_id):
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-
-#https://documenter.getpostman.com/view/42946578/2sAYdoFT8d
